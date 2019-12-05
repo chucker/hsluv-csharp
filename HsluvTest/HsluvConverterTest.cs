@@ -64,7 +64,7 @@ namespace HsluvTest
 		static void Main(string[] args)
 		{
 			var assembly = Assembly.GetExecutingAssembly();
-			var resourceName = "JsonSnapshotRev3";
+			var resourceName = "HsluvTest.snapshot-rev3.json";
 
 			using (Stream stream = assembly.GetManifestResourceStream(resourceName))
 			using (StreamReader reader = new StreamReader(stream))
