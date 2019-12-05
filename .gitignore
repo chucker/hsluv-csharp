@@ -10,3 +10,4 @@ dist
 *.cache
 *.dotCover
 *.userprefs
+/.vs
