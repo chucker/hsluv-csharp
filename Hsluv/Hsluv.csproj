@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net40</TargetFrameworks>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright 2016</Copyright>
+    <Authors>Alexei Boronine</Authors>
+    <PackageProjectUrl>https://github.com/hsluv/hsluv-csharp</PackageProjectUrl>
+    <PackageTags>Color ColorSpace HSL Hsluv CIELuv CIELCh</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
