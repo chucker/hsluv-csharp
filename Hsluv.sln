@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hsluv", "Hsluv\Hsluv.csproj", "{F18D38BE-411A-4DBF-8E7E-89EB8E443969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HsluvTest", "HsluvTest\HsluvTest.csproj", "{F758E861-2BF0-418D-8F11-451DB3DDBF8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HsluvTest", "HsluvTest\HsluvTest.csproj", "{F758E861-2BF0-418D-8F11-451DB3DDBF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hsluv.SystemDrawing", "Hsluv.SystemDrawing\Hsluv.SystemDrawing.csproj", "{D6AABE88-2C49-46A7-9559-37CC859FA245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F758E861-2BF0-418D-8F11-451DB3DDBF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F758E861-2BF0-418D-8F11-451DB3DDBF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F758E861-2BF0-418D-8F11-451DB3DDBF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AABE88-2C49-46A7-9559-37CC859FA245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AABE88-2C49-46A7-9559-37CC859FA245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AABE88-2C49-46A7-9559-37CC859FA245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AABE88-2C49-46A7-9559-37CC859FA245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
